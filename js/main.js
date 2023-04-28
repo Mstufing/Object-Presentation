@@ -82,12 +82,38 @@
 
 // ? new Date(year, month, day, hours, minutes, seconds, milliseconds);
 
-let time = new Date(1999, 10, 15, 11, 10, 15);
-console.log(time);
+// let time = new Date(1999, 10, 15, 11, 10, 15);
+// console.log(time);
 
-let time1 = new Date(1999, 10, 15, 10);
-console.log(time1);
+// let time1 = new Date(1999, 10, 15, 10);
+// console.log(time1);
 
-let time2 = new Date(1999, 10);
-console.log(time2);
+// let time2 = new Date(1999, 10);
+// console.log(time2);
 
+
+// ? Date.now() Method
+
+
+// let time = Date.now();
+
+// console.log(time);
+
+
+
+// ? getFullYear() Method
+
+// let time = new Date();
+
+// console.log(time.getFullYear());
+
+
+
+
+// ? getMonth() Method
+
+let time = new Date();
+let month = ["January", "Feburary", "March", "April", "May", "June", "July", "Augustos","September", "October", "November","December"];
+
+console.log(time.getMonth());
+console.log(month[time.getMonth()]);
