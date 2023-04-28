@@ -35,15 +35,59 @@
 
 // ? this
 
-let obj = {
-    firstName: "Java",
-    lastName: "Script",
-    dateOfBirth: "01.01.1970",
-    calculateAge()
-    {
-        let age = +this.dateOfBirth.split(".")[2];
-        return 2023 - age;
-    },
-}
+// let obj = {
+//     firstName: "Java",
+//     lastName: "Script",
+//     dateOfBirth: "01.01.1970",
+//     calculateAge()
+//     {
+//         let age = +this.dateOfBirth.split(".")[2];
+//         return 2023 - age;
+//     },
+// }
 
-console.log(obj.calculateAge());
+// console.log(obj.calculateAge());
+
+
+// ? new Date()
+
+// let time = new Date();
+
+// console.log(time);
+
+
+
+// ? New Date(milliseconds)
+
+// const time = new Date(0);
+
+// console.log(time);
+
+// const time1 = new Date(1000000000000);
+
+// console.log(time1);
+
+
+// ? new Date(date String)
+
+// const time = new Date("1999-11-15");
+// console.log(time);
+
+// const time1 = new Date("1999-11");
+// console.log(time1);
+
+// const time2 = new Date("1999");
+// console.log(time2);
+
+
+// ? new Date(year, month, day, hours, minutes, seconds, milliseconds);
+
+let time = new Date(1999, 10, 15, 11, 10, 15);
+console.log(time);
+
+let time1 = new Date(1999, 10, 15, 10);
+console.log(time1);
+
+let time2 = new Date(1999, 10);
+console.log(time2);
+
