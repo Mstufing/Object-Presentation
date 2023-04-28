@@ -23,11 +23,11 @@
 
 // ? values()
 
-let myObject = {
-    firstName: "Mustafa",
-    lastName: "Mahmudov",
-    age: 23,
-    job: "Software Developer",
-}
+// let myObject = {
+//     firstName: "Mustafa",
+//     lastName: "Mahmudov",
+//     age: 23,
+//     job: "Software Developer",
+// }
 
-console.log(Object.values(myObject));
+// console.log(Object.values(myObject));
