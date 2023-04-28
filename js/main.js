@@ -112,8 +112,78 @@
 
 // ? getMonth() Method
 
-let time = new Date();
-let month = ["January", "Feburary", "March", "April", "May", "June", "July", "Augustos","September", "October", "November","December"];
+// let time = new Date();
+// let month = ["January", "Feburary", "March", "April", "May", "June", "July", "Augustos","September", "October", "November","December"];
 
-console.log(time.getMonth());
-console.log(month[time.getMonth()]);
+// console.log(time.getMonth());
+// console.log(month[time.getMonth()]);
+
+
+
+// ? getDate() Method
+
+// let time = new Date();
+
+// let day = time.getDate();
+
+// console.log(day);
+
+
+
+
+// ? getDay() Method
+
+// let time = new Date();
+
+// let day = time.getDay();
+
+// console.log(day);
+
+
+
+// ? getHours() Method
+
+// let time = new Date();
+
+// let h = time.getHours();
+
+// console.log(h);
+
+
+
+
+// ? getMinutes() Method
+
+// let time = new Date();
+
+// let min = time.getMinutes();
+
+// console.log(min);
+
+
+// ? setDate() Method
+
+// let d = new Date();
+
+// d.setDate(11);
+
+// console.log(d);
+
+
+
+// ? setMonth() Method
+
+// let m = new Date();
+
+// m.setMonth(11);
+
+// console.log(m);
+
+
+// ? setFullYear() Method
+
+let year = new Date("2018-08-08");
+
+year.setFullYear("1999");
+
+console.log(year);
