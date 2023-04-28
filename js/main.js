@@ -31,3 +31,19 @@
 // }
 
 // console.log(Object.values(myObject));
+
+
+// ? this
+
+let obj = {
+    firstName: "Java",
+    lastName: "Script",
+    dateOfBirth: "01.01.1970",
+    calculateAge()
+    {
+        let age = +this.dateOfBirth.split(".")[2];
+        return 2023 - age;
+    },
+}
+
+console.log(obj.calculateAge());
